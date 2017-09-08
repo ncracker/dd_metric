@@ -1,3 +1,17 @@
+#==============================================================================================
+# Created: 09/08/2017 Version: 0.4
+# Autho: Boyan Syarov - https://github.com/ncracker
+# File name: dd_metric.ps1
+#
+# Description: Submit a [float]value from localhost psobject to Datadog as a metric. 
+# It defaults to namespace "ps1"
+#
+# Tested on Windows Server 2012 R2 w/ PSVersion 4.0
+#
+# Prerequisite: PowerShell ver.4.0+
+#
+# Refer to https://docs.datadoghq.com/api/#metrics for details
+
 $app_key = "1234567890" #provide your valid api key
 $api_key = "1234567890" #provide your valid app key
 $url_base = "https://app.datadoghq.com/"
