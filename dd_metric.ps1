@@ -12,8 +12,8 @@
 #
 # Refer to https://docs.datadoghq.com/api/#metrics for details
 
-$app_key = "1234567890" #provide your valid api key
-$api_key = "1234567890" #provide your valid app key
+$app_key = "1234567890" #provide your valid app key
+$api_key = "1234567890" #provide your valid api key
 $url_base = "https://app.datadoghq.com/"
 $url_signature = "api/v1/series"
 $url = $url_base + $url_signature + "?api_key=$api_key" + "&" + "application_key=$app_key"
