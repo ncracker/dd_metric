@@ -1,6 +1,6 @@
 #===================================================================================
 # Created: 09/08/2017 Version: 0.4
-# Autho: Boyan Syarov - https://github.com/ncracker
+# Author: Boyan Syarov - https://github.com/ncracker
 # File name: dd_metric.ps1
 #
 # Description: Submit a [float]value from localhost psobject to Datadog as a metric. 
