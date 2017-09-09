@@ -36,4 +36,4 @@ $post_obj = [pscustomobject]@{"series" = ,@{"metric" = $metric.name;
 $post_json = $post_obj | ConvertTo-Json -Depth 5 -Compress
 
 # POST to DD API
-$response = Invoke-RestMethod -Method Post -Uri $url -Body $post_json -ContentType "application/json" -Verbose
+$response = Invoke-RestMethod -Method Post -Uri $url -Body $post_json -ContentType "application/json"
