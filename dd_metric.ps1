@@ -1,4 +1,4 @@
-#==============================================================================================
+#===================================================================================
 # Created: 09/08/2017 Version: 0.4
 # Autho: Boyan Syarov - https://github.com/ncracker
 # File name: dd_metric.ps1
@@ -11,6 +11,7 @@
 # Prerequisite: PowerShell ver.4.0+
 #
 # Refer to https://docs.datadoghq.com/api/#metrics for details
+#===================================================================================
 
 $app_key = "1234567890" #provide your valid app key
 $api_key = "1234567890" #provide your valid api key
