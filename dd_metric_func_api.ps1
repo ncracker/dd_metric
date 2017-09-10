@@ -1,4 +1,3 @@
-
 #===================================================================================
 # Created: 09/08/2017 Version: 0.5
 # Author: Boyan Syarov - https://github.com/ncracker
