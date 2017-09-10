@@ -15,4 +15,4 @@ dd-agent isn't necessary as the metric is submitted via HTTP POST directly to th
 Basic example, which submits a metric via dogstatsd. This would require installed & running dd-agent.
 No need to specify API key as that's provided by the agent.
 
-See https://docs.datadoghq.com/api/ for details.
+See https://docs.datadoghq.com/api/ and https://docs.datadoghq.com/guides/dogstatsd/ for details on Datadog's APIs and Dogstatsd.
